@@ -1,68 +1,210 @@
-.container {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
+body {
+    background-color: #fff;
     font-family: 'Cabin', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    margin-left: 35px;
 }
 
-.sectionA {
-    display: flex;
-    background-image: url(./assets/wabi-bg.jpg);
-    width: 1200px;
-    height: 450px;
-    justify-content: center;
-    align-items: center;
-    column-gap: 35px;
+.container {
+    max-width: 1300px;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.container2-text {
+    background-color: #89b0af;
+    width: fit-content;
+    margin-top: 2%;
+    font-size: 20px;
+    text-transform: none;
 
 }
 
-.glam-left img {
-    display: flex;
-    width: 330px;
-    height: 375px;
+.text2 {
+    font-size: 20px;
+    line-height: 1.35;
+    padding-right: 100px;
 }
-
-
-.glam-center {
-    display: flex;
-    color: #ffff;
-    width: 380px;
-    font-size: 2.0rem;
-    line-height: 3.0rem;
-}
-
-.glam-right img {
-    display: flex;
-    width: 330px;
-    height: 375px;
-}
-
-.sectionB {
-    display: flex;
-    position: absolute;
-    width: 1200px;
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    column-gap: 20px;
-    background-color: white;
-    color: #ffff;
-    bottom: 80px;
+.container3{
+    background-color: #a3c9c9;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+    margin-right: 50px;
+}
+.container3 h2{
+    padding-top: 30px;
+    padding-bottom: -30px;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.container3 p{
+    font-size: 17px;
 }
 
-.glam-left-text {
-    background-color: hsla(43, 89%, 7%, 0.774);
-    width: 390px;
+a {
+    color: #a8a392;
+    font-size: 15px;
 }
 
-.glam-center-text {
-    background-color: hsla(43, 89%, 7%, 0.774);
-    width: 360px;
+a:hover {
+    color: black;
 }
 
-.glam-right-text {
-    background-color: hsla(43, 89%, 7%, 0.774);
-    width: 390px;
+.column img{
+    max-width: 350px;
+   
+}
+
+.column{
+    float: left;
+    width: 29%;
+    padding: 20px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.container4 {
+    font-size: 20px;
+    line-height: 1.45;
+    padding-left: 30px;
+    padding-right: 100px;
+    margin-top: 80px;
+}
+
+.container5 {
+    background-color: #6d947a;
+    text-align: center;
+    color: #fff;
+    /* max-width: 1280px; */
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.25;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.container5-text {
+    margin-top: 2%;
+    font-size: 20px;
+    padding: 5px 50px;
+}
+
+.text {
+    text-decoration: underline;
+}
+
+.last {
+    font-size: 22px;
+    padding: 5px 0px;
+}
+
+.container6 {
+    background-color: #9c89e8;
+    color: #fff;
+    /* max-width: 1280px; */
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 1.25;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.img1 {
+    float: right;
+    max-width: 400px;
+    padding-right: 35px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+
+}
+
+.container6-items {
+    font-size: 15px;
+    line-height: 2rem;
+    padding-left: 90px;
+    padding-top: 15px;
+    padding-right: 50px;
+
+}
+
+.secttionB {
+    display: flex;
+    padding-left: 40px
+}
+
+.column img {
+    float: left;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 80px;
+}
+
+.column-text {
+    line-height: 1.35;
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+.img2 {
+    float: right;
+    max-width: 400px;
+    padding-right: 40px;
+    padding-left: 130px;
+    padding-bottom: 20px;
+
+}
+
+.sectionC-text {
+    padding-top: 70px;
+    padding-left: 80px;
+    
+    padding-bottom: 150px;
+    line-height: 1.35;
+}
+
+.img3 {
+    float: left;
+    max-width: 400px;
+    padding-top: 100px;
+    padding-left: 35px;
+    padding-right: 80px;
+    
+}
+
+.sectionD-text{
+     padding-top: 150px;
+     padding-right: 130px;
+     padding-left: 80px;
+     line-height: 1.35;
+     padding-bottom: 150px;
+}
+
+
+.container7 {
+    background-image: url(./webp/last\ section\ -\ transform\ your\ space\ .jpg);
+    color: #fff;
+    text-align: center;
+    padding: 30px 70px;
+    margin-right: 20px;
+    margin-left: -20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.last2 {
+    padding-top: 15px;
 }
